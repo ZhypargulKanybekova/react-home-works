@@ -1,0 +1,32 @@
+/* .modalform {
+  position: fixed;
+  top: 30%;
+  left: 30%;
+  z-index: 10;
+  width: 700px;
+  height: 400px;
+  background-color: rgba(70, 69, 69, 0.786);
+} */
+.modal {
+  position: fixed;
+  top: 30%;
+  left: 30%;
+  z-index: 10;
+  width: 600px;
+  height: 350px;
+  background-color: #0b2f7ce9;
+  margin-left: 50px;
+  margin-top: 10px;
+  border-radius: 5px;
+  
+}
+.formButton {
+  margin: 19px;
+  width: 250px;
+  height: 50px;
+  background-color: #803393ab;
+  color: white;
+  font-size: 20px;
+  border-color: #803393ab;
+  border-radius: 5px;
+}

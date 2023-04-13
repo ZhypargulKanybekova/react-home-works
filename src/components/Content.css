@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background-image: url("https://cs8.pikabu.ru/post_img/big/2016/08/24/2/147200395612713356.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.movie-element {
+  background-color: #946baccf;
+  margin: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+}
+
+.movie-element h2,
+.movie-element p,
+.cardsButton{
+  font-size: 1.25rem;
+  margin: 0;
+  cursor: pointer;
+}
+.movie-element h2 {
+  color: #e6e637d7;
+  margin-bottom: 1rem;
+}
+.movie-element p,
+.cardsButton {
+  color: white;
+  display: inline;
+  background: #9d2bbae7;
+  padding: 0.25rem 1rem;
+  border-radius: 15px;
+  border: 0;
+  height: 30px;
+}
+
+.movie-element__image img {
+  height: 350px;
+  width: 300px;
+  border-radius: 10px 0 0 10px;
+}
+.movie-element__info {
+  flex: 2;
+  padding: 1rem;
+}
